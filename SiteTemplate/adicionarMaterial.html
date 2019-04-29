@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Adicionar materiais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/cssStyle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+  <body>
+    <div class = "containerFundo" id="fundo">
+      <div class = "container">
+        <h1>
+          Novo Material
+        </h1>
+      </div>
+      <div class="containerNew">
+        <form action="post">
+            <h3>Nome do material</h3>
+            <input type="text" name="nome_material" placeholder="Exemplo: linha" class="form-control" id="form-login">
+            <h3>Quantidade desse material</h3>
+            <input type="number" name="quantidade_material" placeholder="Somente números" class="form-control" id="form-login">
+        </form>
+      </div>
+    </div>
+    <div class="container-ask">
+      <button type="submit" name="adicionar_material" class="btn btn-sign-up center-block pull-left">Adicionar material</button>
+      <button type="submit" name="proximo_passo" class="btn btn-sign-up center-block pull-right">Proximo passo</button>
+   </div>  
+  </body>
+</html>
